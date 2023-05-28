@@ -1,27 +1,24 @@
-body{
-    margin: 0 auto;
-    background-color: antiquewhite;
+#content{
+    display: grid;
+    grid-template-columns: (4, 1fr), 50px;
+}
+#navagation_bar{
+    margin-top: 25px;
+    background-color: black;
+    color: white;
     text-align: center;
-    ;
-}
-#img{
-    margin: 0 auto;
-    width: 20%;
-}
+    
 
-#education{
-    font-size: 55px;
-    margin-top: 5%;
+
+
 
 }
-#education:hover{
-    color: blue;
+div nav a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
 }
-#list{
-    display: inline;
-    margin-right: 10px;
+div nav a:hover{
+    background-color: blanchedalmond;
+    
 }
-h3{
-    font-size: 35px;
-}
- 

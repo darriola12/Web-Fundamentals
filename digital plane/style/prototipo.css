@@ -1,0 +1,23 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estilos para el logotipo */
+  .logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para los enlaces de navegación */
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  
