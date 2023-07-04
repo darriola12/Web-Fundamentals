@@ -72,7 +72,7 @@ header nav a{
 .button a{
     text-decoration: none;
     background-color: white;
-    border-radius: 8cqb;
+    border-radius: 8px;
     padding: 14px;
     margin-left: 240px;
     font-size: 21px;
@@ -121,7 +121,7 @@ header nav a{
 #part3_main img{
     width: 400px;
     border-radius: 50%;
-    box-shadow: 0 O 10px rgb(0, 0,0,0.2);
+    box-shadow: 0 0 10px rgb(0, 0,0,0.2);
 }
 #img_part1{
     display: flex;
