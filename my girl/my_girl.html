@@ -1,19 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Girl</title>
-    <link rel="stylesheet" href="style/style.css">
-
+  <meta charset="UTF-8">
+  <title>Mi Libro</title>
+  <link rel="stylesheet" href="style/style.css">  
 </head>
 <body>
-    <main>
-        <p>
-            Te amo muchusimooooo 
-            Mary
-        </p>
-    </main>
-    
+  <div class="book">
+    <div class="page" id="pageContent">
+      <!-- Contenido de la página -->
+    </div>
+    <div class="controls">
+      <button onclick="previousPage()">Página anterior</button>
+      <button onclick="nextPage()">Página siguiente</button>
+    </div>
+  </div>
+
+  <script>
+    var currentPage = 1;
+    var totalPages = 5; // El número total de páginas de tu libro
+
+    function previousPage() {
+      if (currentPage > 1) {
+        currentPage--;
+        loadPage(currentPage);
+      }
+    }
+
+    function nextPage() {
+      if (currentPage < totalPages) {
+        currentPage++;
+        loadPage(currentPage);
+      }
+    }
+
+    function loadPage(pageNumber) {
+      var pageContent = document.getElementById('pageContent');
+      // Aquí puedes cargar el contenido de cada página según el número de página
+      pageContent.innerHTML = "Contenido de la página " + pageNumber;
+    }
+
+    // Cargar la primera página al cargar la página web
+    loadPage(currentPage);
+  </script>
 </body>
 </html>
