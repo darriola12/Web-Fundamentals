@@ -24,7 +24,7 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffd6ff;
+    background-color: #ffffff;
 }
 header nav a{
     padding-left: 55px;
@@ -139,7 +139,7 @@ header nav a{
 
 /* CSS footer */
 footer{
-    background-color: #bbd0ff;
+    background-color: #ffffff;
     margin-top: 50px;
     margin-bottom: 25px;
     display: flex;

@@ -1,0 +1,18 @@
+.Header-contentTop{
+    background: #001832;
+    padding: 10px;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 72px auto;
+    
+}
+.Header_Home_Logo{
+    background-color: #0057b8;
+    height: 170px;
+    display: flex;
+    /* margin-top: -90px;
+    margin-left: 500px; */
+    position: absolute;
+    width: 350px;
+    justify-content: center;
+}

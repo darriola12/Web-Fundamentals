@@ -1,8 +1,29 @@
-section {
-  width: 50%;
-  border: 1px solid;
+.contenedor-flip {
+  perspective: 1000px; /* Ajusta el valor según tus necesidades */
 }
-#block2{
-  width: 50%;
-  margin: 0 auto; 
+
+.foto-flip {
+  position: relative;
+  width: 100px; /* Ajusta el tamaño de la foto según tus necesidades */
+  height: 100px; /* Ajusta el tamaño de la foto según tus necesidades */
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.foto-flip:hover {
+  transform: rotateY(180deg);
+}
+
+.texto-flip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  text-align: center;
+  padding: 40px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8); /* Ajusta el color de fondo según tus necesidades */
 }
